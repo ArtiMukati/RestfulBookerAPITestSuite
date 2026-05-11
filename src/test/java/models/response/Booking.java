@@ -1,14 +1,16 @@
-package models.request;
+package models.response;
 
-public class BookingRequest {
-        private String firstname;
-        private String lastname;
-        private double  totalprice;
-        private boolean depositpaid;
-        private BookingDates bookingdates;
-        private String  additionalneeds;
+import models.request.BookingDates;
 
-    public BookingRequest(String firstname, String lastname, double totalprice, boolean depositpaid, BookingDates bookingdates, String additionalneeds) {
+
+public class Booking {
+    private String firstname;
+    private String lastname;
+    private double totalprice;
+    private boolean depositpaid;
+    private BookingDates bookingdates;
+    private String  additionalneeds;
+    public Booking(String firstname, String lastname, double totalprice, boolean depositpaid, BookingDates bookingdates, String additionalneeds) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.totalprice = totalprice;
@@ -17,34 +19,10 @@ public class BookingRequest {
         this.depositpaid = depositpaid;
     }
 
-    public BookingRequest() {}
+    public Booking() {}
 
     public String getFirstname() {
         return firstname;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public void setTotalprice(double totalprice) {
-        this.totalprice = totalprice;
-    }
-
-    public void setDepositpaid(boolean depositpaid) {
-        this.depositpaid = depositpaid;
-    }
-
-    public void setBookingdates(BookingDates bookingdates) {
-        this.bookingdates = bookingdates;
-    }
-
-    public void setAdditionalneeds(String additionalneeds) {
-        this.additionalneeds = additionalneeds;
     }
 
     public String getLastname() {
@@ -69,7 +47,7 @@ public class BookingRequest {
 
     @Override
     public String toString() {
-        return "createBookingRequest{" +
+        return "createBooking{" +
                 "firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", totalprice=" + totalprice +
@@ -83,38 +61,39 @@ public class BookingRequest {
     public static class Builder{
         private String firstname;
         private String lastname;
-        private double  totalprice;
+        private  double  totalprice;
         private boolean depositpaid;
         private BookingDates bookingdates;
         private String  additionalneeds;
 
-        public Builder firstname(String firstname){
+        public Booking.Builder firstname(String firstname){
             this.firstname = firstname;
             return this;
         }
-        public Builder lastname(String lastname){
+        public Booking.Builder lastname(String lastname){
             this.lastname = lastname;
             return this;
         }
-        public Builder totalprice(double totalprice){
+        public Booking.Builder totalprice(double totalprice){
             this.totalprice = totalprice;
             return this;
         }
-        public Builder depositpaid(boolean deposit){
+        public Booking.Builder depositpaid(boolean deposit){
             this.depositpaid = deposit;
             return this;
         }
-        public Builder bookingdates(BookingDates bookingdates){
+        public Booking.Builder bookingdates(BookingDates bookingdates){
             this.bookingdates = bookingdates;
             return this;
         }
-        public Builder additionalneeds(String additionalneeds){
+        public Booking.Builder additionalneeds(String additionalneeds){
             this.additionalneeds = additionalneeds;
             return this;
         }
-        
-        public BookingRequest build(){
-            return new BookingRequest(firstname, lastname, totalprice, depositpaid, bookingdates, additionalneeds);
+
+        public Booking build(){
+            return new Booking(firstname, lastname, totalprice, depositpaid, bookingdates, additionalneeds);
         }
     }
 }
+

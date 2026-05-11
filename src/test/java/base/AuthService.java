@@ -2,12 +2,16 @@ package base;
 
 import io.restassured.response.Response;
 import models.request.TokenRequest;
+import models.response.TokenResponse;
+import org.testng.Assert;
 
 import static io.restassured.RestAssured.given;
 
 public class AuthService extends BaseService {
 
-    public Response createToken(TokenRequest payload) {
+    public Response createToken(TokenRequest payload)    {
         return postRequest(payload , "/auth/" );
     }
+
+
 }

@@ -9,6 +9,10 @@ public class TokenRequest {
         this.password = password;
     }
 
+    public TokenRequest() {
+
+    }
+
     public String getUsername() {
         return username;
     }

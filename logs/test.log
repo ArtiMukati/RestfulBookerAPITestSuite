@@ -3,3 +3,188 @@
 22:16:38.577 [main]  INFO  listeners.TestlListener - Description!!
 22:16:43.036 [main]  INFO  listeners.TestlListener - Passed!!!!createTokenTest
 22:16:43.044 [main]  INFO  listeners.TestlListener - Test Suite Completed!!!
+12:38:43.331 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:03:08.164 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:08:11.049 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:11:26.447 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:11:28.083 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:11:52.099 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:11:53.851 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:15:31.990 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:15:36.764 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:33:03.754 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:42:57.765 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:43:00.550 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:46:03.421 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite\src\test\resources\testng.xml
+
+13:46:03.435 [main]  INFO  listeners.TestListener - Test Suite run Started!!!
+13:46:03.550 [main]  INFO  listeners.TestListener - Started!!!! createNewBooking
+13:46:03.551 [main]  INFO  listeners.TestListener - Description!! Create a new booking
+13:46:05.277 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:46:05.278 [main]  INFO  listeners.TestListener - Passed!!!! createNewBooking
+13:46:05.282 [main]  INFO  listeners.TestListener - Started!!!! getBookingDetailsbyId
+13:46:05.283 [main]  INFO  listeners.TestListener - Description!! 
+13:46:05.874 [main]  INFO  listeners.TestListener - Passed!!!! getBookingDetailsbyId
+13:46:05.876 [main]  INFO  listeners.TestListener - Started!!!! createTokenTest
+13:46:05.877 [main]  INFO  listeners.TestListener - Description!! 
+13:46:06.135 [main]  INFO  listeners.TestListener - Passed!!!! createTokenTest
+13:46:06.136 [main]  INFO  listeners.TestListener - Test Suite Completed!!!
+13:46:06.144 [main]  INFO  listeners.TestListener - Extent Report generated at: C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite/reports/ + timestamp/ExtentReport.html
+13:47:25.347 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite\src\test\resources\testng.xml
+
+13:47:25.360 [main]  INFO  listeners.TestListener - Test Suite run Started!!!
+13:47:25.444 [main]  INFO  listeners.TestListener - Started!!!! createNewBooking
+13:47:25.445 [main]  INFO  listeners.TestListener - Description!! Create a new booking
+13:47:27.268 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:47:27.270 [main]  INFO  listeners.TestListener - Passed!!!! createNewBooking
+13:47:27.273 [main]  INFO  listeners.TestListener - Started!!!! getBookingDetailsbyId
+13:47:27.273 [main]  INFO  listeners.TestListener - Description!! 
+13:47:28.342 [main]  INFO  listeners.TestListener - Passed!!!! getBookingDetailsbyId
+13:47:28.354 [main]  INFO  listeners.TestListener - Started!!!! createTokenTest
+13:47:28.355 [main]  INFO  listeners.TestListener - Description!! 
+13:47:28.947 [main]  INFO  listeners.TestListener - Passed!!!! createTokenTest
+13:47:28.949 [main]  INFO  listeners.TestListener - Test Suite Completed!!!
+13:47:28.961 [main]  INFO  listeners.TestListener - Extent Report generated at: C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite/reports/ + timestamp/ExtentReport.html
+13:49:52.438 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite\src\test\resources\testng.xml
+
+13:49:52.451 [main]  INFO  listeners.TestListener - Test Suite run Started!!!
+13:49:52.545 [main]  INFO  listeners.TestListener - Started!!!! createNewBooking
+13:49:52.545 [main]  INFO  listeners.TestListener - Description!! Create a new booking
+13:49:54.633 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+13:49:54.634 [main]  INFO  listeners.TestListener - Passed!!!! createNewBooking
+13:49:54.636 [main]  INFO  listeners.TestListener - Started!!!! getBookingDetailsbyId
+13:49:54.637 [main]  INFO  listeners.TestListener - Description!! 
+13:49:55.713 [main]  INFO  assertions.BookingAssertions - GET booking details verification successful with bookingid: {}
+13:49:55.713 [main]  INFO  listeners.TestListener - Passed!!!! getBookingDetailsbyId
+13:49:55.716 [main]  INFO  listeners.TestListener - Started!!!! createTokenTest
+13:49:55.717 [main]  INFO  listeners.TestListener - Description!! 
+13:49:56.002 [main]  INFO  listeners.TestListener - Passed!!!! createTokenTest
+13:49:56.003 [main]  INFO  listeners.TestListener - Test Suite Completed!!!
+13:49:56.014 [main]  INFO  listeners.TestListener - Extent Report generated at: C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite/reports/ + timestamp/ExtentReport.html
+14:02:10.750 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite\src\test\resources\testng.xml
+
+14:02:10.764 [main]  INFO  listeners.TestListener - Test Suite run Started!!!
+14:02:10.864 [main]  INFO  listeners.TestListener - Started!!!! createNewBooking
+14:02:10.865 [main]  INFO  listeners.TestListener - Description!! Create a new booking
+14:02:12.753 [main]  INFO  assertions.BookingAssertions - POST booking verification successful for bookingid: {}
+14:02:12.755 [main]  INFO  listeners.TestListener - Passed!!!! createNewBooking
+14:02:12.759 [main]  INFO  listeners.TestListener - Started!!!! getBookingDetailsbyId
+14:02:12.759 [main]  INFO  listeners.TestListener - Description!! 
+14:02:13.368 [main]  INFO  assertions.BookingAssertions - GET booking details verification successful with bookingid: {}
+14:02:13.369 [main]  INFO  listeners.TestListener - Passed!!!! getBookingDetailsbyId
+14:02:13.374 [main]  INFO  listeners.TestListener - Started!!!! createTokenTest
+14:02:13.374 [main]  INFO  listeners.TestListener - Description!! 
+14:02:13.671 [main]  INFO  listeners.TestListener - Passed!!!! createTokenTest
+14:02:13.673 [main]  INFO  listeners.TestListener - Test Suite Completed!!!
+14:02:13.682 [main]  INFO  listeners.TestListener - Extent Report directory: C:\Users\mukat\IdeaProjects\RestfulBookerAPITestSuite/reports
+10:30:21.155 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+10:30:23.767 [main]  INFO  assertions.BookingAssertions - GET booking details verification successful with bookingid: {}
+12:43:02.510 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+12:50:07.138 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+12:53:06.154 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:03:26.214 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:08:30.067 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:08:48.560 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:09:38.285 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:09:43.049 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:11:12.927 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:18:33.914 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:22:37.248 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:25:48.374 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:28:40.393 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:29:07.347 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:38:19.238 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:39:32.055 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+13:39:34.421 [main]  INFO  assertions.BookingAssertions - GET booking details verification successful with bookingid: {}
+13:56:50.980 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+15:59:50.676 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:05:41.093 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:19:11.806 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:28:16.018 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:29:22.048 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:31:14.179 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:40:51.651 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:44:23.489 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+16:55:32.360 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+17:00:59.982 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+17:01:03.354 [main]  INFO  assertions.BookingAssertions - Partial booking details update successful with bookingid: {}
+17:07:56.248 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+17:09:37.862 [main]  INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mukat\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
