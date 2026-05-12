@@ -3,7 +3,6 @@ package tests;
 import assertions.BookingAssertions;
 import base.BookingService;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import datafactory.BookingDataFactory;
 import io.restassured.response.Response;
 import models.request.BookingDates;
@@ -16,11 +15,9 @@ import org.testng.annotations.Test;
 import utils.Bookinghelper;
 import utils.TestDataLoader;
 
-import java.math.BigDecimal;
-
 public class BookingTest {
-    @Test (description = "Create a new booking")
-    public void createNewBooking() {
+    @Test (description = "Create a new booking" , groups = {"booking"})
+    public void testCreateBooking() {
 
         //Load the data from Json
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
@@ -66,8 +63,8 @@ public class BookingTest {
 
 
     }
-    @Test
-    public void getBookingDetailsbyId() {
+    @Test (description = "Get Booking details by ID",groups = {"booking"})
+    public void testGetBookingById() {
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
         System.out.println(data.toPrettyString());
         BookingRequest request = BookingDataFactory.fromJson(data);
@@ -89,8 +86,8 @@ public class BookingTest {
         );
 
     }
-    @Test
-    public void getBookingDetailsbyLastname() {
+    @Test (description = "Get Booking details by Lastname",groups = {"booking"})
+    public void testGetBookingByLastname() {
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
         System.out.println(data.toPrettyString());
         BookingRequest request = BookingDataFactory.fromJson(data);
@@ -112,8 +109,8 @@ public class BookingTest {
                 request.getAdditionalneeds()
         );
     }
-    @Test (description = "Verify update booking PUt request")
-    public void updateBookingPUTRequest() {
+    @Test (description = "Verify update booking PUt request" ,groups = {"booking"})
+    public void testUpdateBookingWithPUT() {
         //Load Cooking Creating Data
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
         BookingRequest request = BookingDataFactory.fromJson(data);
@@ -144,8 +141,8 @@ public class BookingTest {
 
     }
 
-    @Test (description = "Verify partial update booking Patch request")
-    public void partialBookingupdatePatchRequest() {
+    @Test (description = "Verify partial update booking Patch request" , groups = {"booking"})
+    public void testPartialUpdateBookingWithPATCH() {
         //Load Cooking Creating Data
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
         BookingRequest request = BookingDataFactory.fromJson(data);
@@ -176,8 +173,8 @@ public class BookingTest {
 
 
     }
-    @Test
-    public void deleteBookingDetails() {
+    @Test (description = "Verify delete booking request" , groups = {"booking"})
+    public void testDeleteBooking() {
         JsonNode data = TestDataLoader.loadJson("src/test/resources/testdata/booking.json");
         System.out.println(data.toPrettyString());
         BookingRequest request = BookingDataFactory.fromJson(data);

@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateTokenTest {
-    @Test
-    public void createTokenTest() {
+    @Test (description = "Create a new token with valid credentials", groups = {"auth"})
+    public void testCreateToken() {
         TokenRequest payload = new TokenRequest("admin", "password123");
         AuthService auth = new AuthService();
         Response response = auth.createToken(payload);

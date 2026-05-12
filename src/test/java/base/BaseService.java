@@ -1,6 +1,8 @@
 package base;
 
+import LoggingFilters.LoggingFilters;
 import com.fasterxml.jackson.databind.JsonNode;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import models.request.PartialBookingUpdateRequest;
@@ -17,7 +19,10 @@ public class BaseService {
     private static final String BASE_URL = "https://restful-booker.herokuapp.com";
 
     private final RequestSpecification requestSpecification;
-
+    //Static blocks runs once when the class is loaded, we can use it to set up the logging filter for all requests
+    static {
+        RestAssured.filters(new LoggingFilters());
+    }
     public BaseService() {
         requestSpecification = given().baseUri(BASE_URL);
     }
