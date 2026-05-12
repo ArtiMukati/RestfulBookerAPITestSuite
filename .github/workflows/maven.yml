@@ -14,6 +14,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        suite: [ suite.xml ]
+
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 21
@@ -23,6 +27,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean test -Dsuite suite -x
+      run: mvn clean test -Dsuite=${{ matrix.suite }}
 
    
